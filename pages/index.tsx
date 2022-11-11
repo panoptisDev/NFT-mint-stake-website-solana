@@ -13,8 +13,8 @@ const Home: NextPage = () => {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Buildoors</title>
-        <meta name="The NFT Collection for Buildoors" />
+        <title>Willows</title>
+        <meta name="The NFT Collection for Willows" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -34,11 +34,11 @@ const Home: NextPage = () => {
           <Center>
             <Box marginBottom={4} color="white">
               <a
-                href="https://twitter.com/_buildspace"
+                href="https://twitter.com/Naswillow"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                built with @_buildspace
+                Built By @Naswillow
               </a>
             </Box>
           </Center>
