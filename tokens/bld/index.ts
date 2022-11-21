@@ -8,7 +8,7 @@ import { DataV2, createCreateMetadataAccountV2Instruction,} from "@metaplex-foun
 const TOKEN_NAME = "Willow";
 const TOKEN_SYMBOL = "WLW";
 const TOKEN_DESCRIPTION = "A token for Willows";
-const TOKEN_IMAGE_NAME = "logo.png";
+const TOKEN_IMAGE_NAME = "collection.png";
 const TOKEN_IMAGE_PATH = `tokens/bld/assets/${TOKEN_IMAGE_NAME}`;
 
 async function createBldToken(
