@@ -21,7 +21,7 @@
     "@solana/wallet-adapter-wallets": "^0.19.5",
     "@solana/web3.js": "^1.66.2",
     "@solana/spl-token": "0.3.6",
-
+    "@metaplex-foundation/mpl-token-metadata": "2.5.1",
     "@types/node": "18.11.9",
     "@types/react": "18.0.25",
     "@types/react-dom": "18.0.8",

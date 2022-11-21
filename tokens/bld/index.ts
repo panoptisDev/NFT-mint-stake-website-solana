@@ -1,6 +1,6 @@
 import * as web3 from "@solana/web3.js";
 import * as token from "@solana/spl-token";
-import { initializeKeypair } from "./initializeKeypair";
+import { initializeKeypair } from "./MNFT/initializeKeypair";
 import * as fs from "fs";
 import { bundlrStorage, findMetadataPda, keypairIdentity, Metaplex, toMetaplexFile,} from "@metaplex-foundation/js";
 import { DataV2, createCreateMetadataAccountV2Instruction,} from "@metaplex-foundation/mpl-token-metadata";
