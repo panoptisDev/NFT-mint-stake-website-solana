@@ -1,2 +1,2 @@
 # MNFT
-Minter NFT Website
+Minter NFT Staking and Reward System
