@@ -1,6 +1,10 @@
 import * as web3 from "@solana/web3.js";
 import * as token from "@solana/spl-token";
+<<<<<<< HEAD
 import { initializeKeypair } from "../initializeKeypair";
+=======
+import { initializeKeypair } from "../tokens/bld/initializeKeypair";
+>>>>>>> f170223d2667d54a73137fc744f11e288e207520
 import * as fs from "fs";
 import { bundlrStorage, findMetadataPda, keypairIdentity, Metaplex, toMetaplexFile,} from "@metaplex-foundation/js";
 import { DataV2, createCreateMetadataAccountV2Instruction,} from "@metaplex-foundation/mpl-token-metadata";
