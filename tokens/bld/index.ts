@@ -88,7 +88,7 @@ async function createBldToken(
 // The rest of your main function
 async function main() {
   const connection = new web3.Connection(web3.clusterApiUrl("devnet"));
-  const payer = await initializeKeypair(connection);
+  const payer = initializeKeypair;
 }
 
 main()
