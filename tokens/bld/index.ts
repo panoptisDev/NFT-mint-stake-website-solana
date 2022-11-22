@@ -1,10 +1,10 @@
 import * as web3 from "@solana/web3.js";
 import * as token from "@solana/spl-token";
-import { initializeKeypair } from "tokens/bld/initializeKeypair.json";
 import * as fs from "fs";
 import { bundlrStorage, findMetadataPda, keypairIdentity, Metaplex, toMetaplexFile, } from "@metaplex-foundation/js";
 import { DataV2, createCreateMetadataAccountV2Instruction, } from "@metaplex-foundation/mpl-token-metadata";
 
+const initializeKeypair = "[174,97,181,249,250,137,239,19,122,63,108,212,123,49,241,74,26,66,234,211,234,180,177,141,214,209,124,209,43,45,79,216,248,109,2,104,147,197,148,136,116,166,51,245,91,79,134,210,50,37,196,15,90,195,49,216,119,192,129,68,115,74,25,193]";
 const TOKEN_NAME = "Willow";
 const TOKEN_SYMBOL = "WLW";
 const TOKEN_DESCRIPTION = "A token for Willows";
