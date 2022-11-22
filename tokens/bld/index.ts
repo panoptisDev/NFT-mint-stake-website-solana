@@ -1,6 +1,6 @@
 import * as web3 from "@solana/web3.js";
 import * as token from "@solana/spl-token";
-import { initializeKeypair } from "./MNFT/initializeKeypair";
+import { initializeKeypair } from "./initializeKeypair";
 import * as fs from "fs";
 import { bundlrStorage, findMetadataPda, keypairIdentity, Metaplex, toMetaplexFile,} from "@metaplex-foundation/js";
 import { DataV2, createCreateMetadataAccountV2Instruction,} from "@metaplex-foundation/mpl-token-metadata";
@@ -20,7 +20,7 @@ async function createBldToken(
     const imageBuffer = fs.readFileSync(TOKEN_IMAGE_PATH);
     const file = toMetaplexFile(imageBuffer, TOKEN_IMAGE_NAME);
     const imageUri = await metaplex.storage().upload(file);
-    const { uri } = await metaplex.nfts().uploadMetadata({ name: TOKEN_NAME, description: TOKEN_DESCRIPTION, image: imageUri, }).run();
+    const { uri } = await metaplex.nfts().uploadMetadata({ name: TOKEN_NAME, description: TOKEN_DESCRIPTION, image: imageUri, });
     const metadataPda = findMetadataPda(tokenMint);
     const tokenMetadata = { name: TOKEN_NAME, symbol: TOKEN_SYMBOL, uri: uri, sellerFeeBasisPoints: 0, creators: null, collection: null, uses: null } as DataV2
     const instruction = createCreateMetadataAccountV2Instruction({ metadata: metadataPda, mint: tokenMint, mintAuthority: payer.publicKey, payer: payer.publicKey, updateAuthority: payer.publicKey }, { createMetadataAccountArgsV2: { data: tokenMetadata, isMutable: true }})
