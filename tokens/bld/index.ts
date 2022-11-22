@@ -1,19 +1,9 @@
 import * as web3 from "@solana/web3.js";
 import * as token from "@solana/spl-token";
-import { initializeKeypair } from "./tokens/bld/initializeKeypair";
+import { initializeKeypair } from "tokens/bld/initializeKeypair";
 import * as fs from "fs";
-import {
-  bundlrStorage,
-  findMetadataPda,
-  keypairIdentity,
-  Metaplex,
-  toMetaplexFile,
-} from "@metaplex-foundation/js";
-
-import {
-  DataV2,
-  createCreateMetadataAccountV2Instruction,
-} from "@metaplex-foundation/mpl-token-metadata";
+import { bundlrStorage, findMetadataPda, keypairIdentity, Metaplex, toMetaplexFile, } from "@metaplex-foundation/js";
+import { DataV2, createCreateMetadataAccountV2Instruction, } from "@metaplex-foundation/mpl-token-metadata";
 
 const TOKEN_NAME = "Willow";
 const TOKEN_SYMBOL = "WLW";
