@@ -41,7 +41,7 @@ const Connected: FC = () => {
     metaplex
       .candyMachinesV2()
       .findByAddress({
-        address: new PublicKey("H25KWpvYk752uCiXfm9ckLGcvAZNYeq6B9BCuok7dgoB"),
+        address: new PublicKey("8hkKmYYbE1i3PLkUbuA4VZ7rMXejcCLtEDX2SSBtNJQ9"),
       })
       .then((candyMachine) => {
         console.log(candyMachine)
@@ -89,13 +89,13 @@ const Connected: FC = () => {
             noOfLines={1}
             textAlign="center"
           >
-            Welcome Buildoor.
+            Welcome sir Grim Reaper.
           </Heading>
 
           <Text color="bodyText" fontSize="xl" textAlign="center">
-            Each buildoor is randomly generated and can be staked to receive
-            <Text as="b"> $BLD</Text>. Use your <Text as="b"> $BLD</Text> to
-            upgrade your buildoor and receive perks within the community!
+            Each Grim Reaper is randomly generated and can be Staked to Receive
+            <Text as="b"> Jucoin (JUC) Tokens</Text>. Use your <Text as="b"> JUC</Text> to
+            upgrade your Goritoto and Receive perks within the community!
           </Text>
         </VStack>
       </Container>
@@ -115,7 +115,7 @@ const Connected: FC = () => {
         onClick={handleClick}
         isLoading={isMinting}
       >
-        <Text>mint buildoor</Text>
+        <Text>Mint A Grim Reaper</Text>
       </Button>
     </VStack>
   )
