@@ -14,7 +14,7 @@ const Home: NextPage = () => {
     <div className={styles.container}>
       <Head>
         <title>Willows</title>
-        <meta name="The NFT Collection for Willows" />
+        <meta name="The NFT Collection for Grim Reapers" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -38,7 +38,7 @@ const Home: NextPage = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Built By @Naswillow
+                Copyright @Naswillow
               </a>
             </Box>
           </Center>
