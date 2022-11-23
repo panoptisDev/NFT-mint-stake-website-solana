@@ -13,7 +13,7 @@ const Home: NextPage = () => {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Willows</title>
+        <title>Goritoto | NFT Reward & Staking</title>
         <meta name="The NFT Collection for Grim Reapers" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
