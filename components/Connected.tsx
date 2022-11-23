@@ -13,7 +13,7 @@ const Connected: FC = () => {
 
   const metaplex = useMemo(() => { return Metaplex.make(connection).use(walletAdapterIdentity(walletAdapter))}, [connection, walletAdapter])
 
-  useEffect(() => { if (!metaplex) return metaplex.candyMachinesV2().findByAddress({ address: new PublicKey("H25KWpvYk752uCiXfm9ckLGcvAZNYeq6B9BCuok7dgoB"), }).then((candyMachine) => { console.log(candyMachine)setCandyMachine(candyMachine) }).catch((error) => { alert(error) }) }, [metaplex])
+  useEffect(() => { if (!metaplex) return metaplex.candyMachinesV2().findByAddress({ address: new PublicKey("H25KWpvYk752uCiXfm9ckLGcvAZNYeq6B9BCuok7dgoB"), }).then((candyMachine) => { console.log(candyMachine)setCandyMachine(candyMachine) }).catch((error) => { alert(error) }) }, [metaplex]);
   const router = useRouter()
   const handleClick: MouseEventHandler<HTMLButtonElement> = useCallback(async (event) => { if (event.defaultPrevented) return if (!walletAdapter.connected || !candyMachine) { return } try { setIsMinting(true) const nft = await metaplex.candyMachinesV2().mint({ candyMachine, }); console.log(nft) router.push(`/newMint?mint=${nft.nft.address.toBase58()}`) } catch (error) { alert(error) } finally { setIsMinting(false) } }, [walletAdapter.connected, candyMachine, metaplex, router])
 
