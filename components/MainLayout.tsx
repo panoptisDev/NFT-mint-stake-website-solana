@@ -11,8 +11,8 @@ const MainLayout: FC<{ children: ReactNode }> = ({ children }) => {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Willows</title>
-        <meta name="The NFT Collection for Willows" />
+        <title>Goritoto NFT</title>
+        <meta name="The NFT Collection for Grim Reapers" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -34,7 +34,7 @@ const MainLayout: FC<{ children: ReactNode }> = ({ children }) => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                build with @Naswillow
+                Copyright @Naswillow
               </a>
             </Box>
           </Center>
