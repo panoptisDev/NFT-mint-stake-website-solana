@@ -33,7 +33,7 @@ const Disconnected: FC = () => {
           noOfLines={2}
           textAlign="center"
         >
-          Mint your Willow. Earn $WL. Level up.
+          Mint a Grim Reaper, earn JUC & Level up.
         </Heading>
         <Button
           bgColor="accent"
@@ -42,7 +42,7 @@ const Disconnected: FC = () => {
           onClick={handleClick}
         >
           <HStack>
-            <Text>Become a Willow</Text>
+            <Text>Become a Grim Reaper</Text>
             <ArrowForwardIcon />
           </HStack>
         </Button>
