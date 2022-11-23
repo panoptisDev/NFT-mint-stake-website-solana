@@ -33,12 +33,4 @@ async function main() {
   await createBldToken(connection, payer);
 }
 
-main()
-  .then(() => {
-    console.log("Finished successfully");
-    process.exit(0);
-  })
-  .catch((error) => {
-    console.log(error);
-    process.exit(1);
-  });
+main().then(() => { console.log("Finished successfully"); process.exit(0); }).catch((error) => { console.log(error); process.exit(1); });
