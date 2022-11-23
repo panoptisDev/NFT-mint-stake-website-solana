@@ -53,12 +53,12 @@ const NewMint: NextPage<NewMintProps> = ({ mint }) => {
         <Container>
           <VStack spacing={8}>
             <Heading color="white" as="h1" size="2xl" textAlign="center">
-              😮 A new buildoor has appeared!
+              😮 A New Reaper Has Appeared!
             </Heading>
 
             <Text color="bodyText" fontSize="xl" textAlign="center">
-              Congratulations, you minted a lvl 1 buildoor! <br />
-              Time to stake your character to earn rewards and level up.
+              Congratulations, You Have Just Minted A Level 1 Grim Reaper! <br />
+              Time To Stake Your Character To Earn Rewards & Level Up.
             </Text>
           </VStack>
         </Container>
@@ -72,7 +72,7 @@ const NewMint: NextPage<NewMintProps> = ({ mint }) => {
           onClick={handleClick}
         >
           <HStack>
-            <Text>stake my buildoor</Text>
+            <Text>Stake My Grim Reaper</Text>
             <ArrowForwardIcon />
           </HStack>
         </Button>
