@@ -12,6 +12,7 @@ const Home: NextPage = () => {
 
   return (
     <MainLayout>
+    <VStack spacing={20}>
     <div className={styles.container}>
       <Head>
         <title>Goritoto | NFT Reward & Staking</title>
@@ -46,6 +47,7 @@ const Home: NextPage = () => {
         </Stack>
       </Box>
     </div>
+    </VStack>
     <MainLayout>
   )
 }
