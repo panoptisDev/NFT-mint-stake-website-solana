@@ -1,0 +1,21 @@
+{
+    "name": "Goritoto NFT #0",
+    "symbol": "GRT",
+    "description": "Your Favourite Zimbabwean Myth",
+    "image": "0.png",
+    "attributes": [
+        {
+            "trait_type": "color",
+            "value": "green"
+        }
+    ],
+    "properties": {
+        "files": [
+            {
+                "uri": "0.png",
+                "type": "image/png"
+            }
+        ]
+    }
+
+}

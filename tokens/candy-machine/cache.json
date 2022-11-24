@@ -1,0 +1,137 @@
+{
+  "program": {
+    "candyMachine": "6KGHutoHYX1AKr75TtzPm9gmsHvh2UFTZvt2fQ1XwdoP",
+    "candyMachineCreator": "4KaqYyTqgcCh5XTVcWRtMnPLePEQr5hGYNUWjrxBuj3Y",
+    "collectionMint": "14XgQSbvuyJnmdL9HYMzi3m7zQVzHS77KXdrdrHesHd1"
+  },
+  "items": {
+    "-1": {
+      "name": "Goritoto NFT",
+      "image_hash": "019c7fb9b1736b7fac3a073f16682ac896b8e4c2c176cfe8dd15207ada179c3d",
+      "image_link": "https://arweave.net/H_om_hc73TyOk09OKPk1UC2CMDhLiyKxLIVOWd6qOP4?ext=png",
+      "metadata_hash": "5de81442d16f572007361f3e0a12e3b372742a3b279b0baad50ca239263a5db3",
+      "metadata_link": "https://arweave.net/HqvKGGeB-j8Sa8B4dlgDX-Yn_2o8FTWbnpdDLW4YpQY",
+      "onChain": true
+    },
+    "0": {
+      "name": "Goritoto NFT #0",
+      "image_hash": "7986f26453ff2be93af3b711c9a9e02af84cd37ec357db12c6863b94afc97e36",
+      "image_link": "https://arweave.net/nRsnBx6gVSvgL2xq74yNSqtf14E1Er7_cbe02qda0nI?ext=png",
+      "metadata_hash": "f4f84e50d8610c3c69f00425386bc7b86cce71cadf132d6a9964dc4c2e1c564d",
+      "metadata_link": "https://arweave.net/eECl63ox1gQpNQlN_UmQUXp_0bB_Dhe4QdnEOyvqEb4",
+      "onChain": true
+    },
+    "1": {
+      "name": "Goritoto NFT #1",
+      "image_hash": "8981b50cf05c1be4151820fff3aef5744dfe68976bdcffc864aeae39250fa7a2",
+      "image_link": "https://arweave.net/3Drn1suAB4Vc4bq7iAKU2_3YXmMx2a_1di9JhD_rW_s?ext=png",
+      "metadata_hash": "0e9e0e20c99bfa060026ef9be3401217528debf5719eb5e6fb8c343f62f2d419",
+      "metadata_link": "https://arweave.net/PdDLpnalS1QPXj8T3-SbCoQWuBQf3fl8zmxq4ciIpYw",
+      "onChain": true
+    },
+    "2": {
+      "name": "Goritoto NFT #2",
+      "image_hash": "f1eb9c7f84b80f9d1f6c42d1d639c66af97d0d3d682143978071e890142a1087",
+      "image_link": "https://arweave.net/7XFVCtEaCFEjXeLUhSJDtWOsYU95IuJ5QdtCECaUNlY?ext=png",
+      "metadata_hash": "cea5e2be28c4cb2fa12bb0b4c7a1bda446e479e771fd7f58af4e7b4a0d559706",
+      "metadata_link": "https://arweave.net/NPpYa5tYsRgH-goP2nNfizszzyqwqmKWeS8DZo52in4",
+      "onChain": true
+    },
+    "3": {
+      "name": "Goritoto NFT #3",
+      "image_hash": "e57fafee016f7095ad4d44f1b674f886c659ab3333d3452c663c6212a2efdaeb",
+      "image_link": "https://arweave.net/a8gB3raqP3Y35DU5pLTFRU00QFIkriEWMnfvtaYHm1U?ext=png",
+      "metadata_hash": "c300450a35bb89678e6081c2257e9a3a6876602e0b105b544dce1add71f22604",
+      "metadata_link": "https://arweave.net/0UyIHuYfhWxRw8rzE78sewq5Ct-aTw1wE8OF9VFgy2Q",
+      "onChain": true
+    },
+    "4": {
+      "name": "Goritoto NFT #4",
+      "image_hash": "3189b4854ef678cfd000c21fb3517348e8e422f5db7f23210643782aebf474a6",
+      "image_link": "https://arweave.net/DFEOoiDwVuHeV1tKjOR0fsN2clg4iIwdgSKiXXdp_zY?ext=png",
+      "metadata_hash": "bb7fd07ca199b5ec894f389477637c92f5a6ea3edec655939f0e5eda9a9e4ba1",
+      "metadata_link": "https://arweave.net/b1Vxh5_BQ7zrklVIpwMcN1TE3eG-8ID0uS8sedy2Qik",
+      "onChain": true
+    },
+    "5": {
+      "name": "Goritoto NFT #5",
+      "image_hash": "9e0d4f82bc07c7d189c4a829e4d40a1ddb224c93b00d6fa81b5edd74f9f2657d",
+      "image_link": "https://arweave.net/pwaQEhI7kh5L8ceciNzbIrUVBX4ByyV0QhNpf4oIjgE?ext=png",
+      "metadata_hash": "b5019a5568e03b32d47dfb14f0567c26c4565fc945fab4fdbee328f52a09fc1b",
+      "metadata_link": "https://arweave.net/lTlJNd139jRvkZ6MO9xaeaFDUzPy6M6yQvpOciDFccU",
+      "onChain": true
+    },
+    "6": {
+      "name": "Goritoto NFT #6",
+      "image_hash": "a435fb89d259b29c635a316ced7cf5cad29b876653e88aaa0d6df67bcb4cd5e7",
+      "image_link": "https://arweave.net/mkYZ9b97C1yqSnNYS7Ij6-zmWdUIttfFgWu2o0cXDq0?ext=png",
+      "metadata_hash": "e09280f96c0111e22b9f60cbd3662a4262cc87dd6dcaf97208ab489e11d152c7",
+      "metadata_link": "https://arweave.net/v3umwq_QloJq3iZUuzkWGFajIP8sM8linp566Xo9wXw",
+      "onChain": true
+    },
+    "7": {
+      "name": "Goritoto NFT #7",
+      "image_hash": "27caeb84d060910a6a2e6d7a2a7f2419a540d1a3cd0088b9de4cff144d54f1dc",
+      "image_link": "https://arweave.net/duH8ibNFIC0Fn2PyTpO53TCRj5Q_fmB4l93j36a1wQ4?ext=png",
+      "metadata_hash": "559ce5917314344520c94d3ba4f1e45af33d08f7f664603e4fdd6d1d66df76e5",
+      "metadata_link": "https://arweave.net/TTuRendMObT-5IzfuNe4vMExoYuMFfOGnpZU5No4yvE",
+      "onChain": true
+    },
+    "8": {
+      "name": "Goritoto NFT #8",
+      "image_hash": "7e4d155694f7ffaf9039565a2238e9ea106ff35fe4cb56f6b44d42449bebdd4f",
+      "image_link": "https://arweave.net/64qTTeAemY7vKQH3k-4BSYMG3Kc3NlJQ0KfkUG8S-CA?ext=png",
+      "metadata_hash": "f9182208975ad0c3c5adc68b130fb8b0119c8cba6e03bde188bcc2705119029a",
+      "metadata_link": "https://arweave.net/ssshibdUmw1WdgumcC7XoyTRyyTTqrj4kz2yD37RlXA",
+      "onChain": true
+    },
+    "9": {
+      "name": "Goritoto NFT #9",
+      "image_hash": "d8c87d5da409770c1794999b4b0f3359b09e793217179568386faf7bb2dd4638",
+      "image_link": "https://arweave.net/nfRbYcyOIQw1ZZGFMARr2Q3eNF58xCAT15rFdOLQuHw?ext=png",
+      "metadata_hash": "37d56406ab29023a4a2b575f14f2cd62f5022d9c51a9d7fe10d757caa5e7a34f",
+      "metadata_link": "https://arweave.net/c-Y3r-Ie76O85MkcDBRUp_hvRhMT30dSUcxcZqMMUMY",
+      "onChain": true
+    },
+    "10": {
+      "name": "Goritoto NFT #10",
+      "image_hash": "491cbde70e577752d74f53340586e082a27982ed887847b60f289d5e976f0ddb",
+      "image_link": "https://arweave.net/xbyFfacPKtlTgD-DOazoANvs-gOAGwLLNb0uYcADwJs?ext=png",
+      "metadata_hash": "da6e3271a4c868b4f7b7ac0ad3a2fb5c4707d990811142f04248674018dd6d83",
+      "metadata_link": "https://arweave.net/LIhaKgpKN-HMZTTl-6TiO7-lC02tWU4X0d9uG81KMHY",
+      "onChain": true
+    },
+    "11": {
+      "name": "Goritoto NFT #11",
+      "image_hash": "da4261eaf756c61246d6c2dd8a121233b22126c55672e402e5fce5b8ecab4fab",
+      "image_link": "https://arweave.net/QyLZPxT7WxxKNGHtWsOlLOrY5qPUIe7ZZAcwOyy0bXE?ext=png",
+      "metadata_hash": "c58e0191b86d1077166aea20c63cd44af1f9681e6304bda82acaa22f38a9279d",
+      "metadata_link": "https://arweave.net/jG67Vbr3D3DopKwyTgLVk58Ji2ejml6dhlp89Hp_Vgw",
+      "onChain": true
+    },
+    "12": {
+      "name": "Goritoto NFT #12",
+      "image_hash": "71ac4ab82588defa625f07836d93bba9b61edbfca5160fb0935fe9f7c7c7615e",
+      "image_link": "https://arweave.net/yrZD7JXd98sJTgOnn0kSJGGfCPztiRChI4SUqLqOzm8?ext=png",
+      "metadata_hash": "d766f03654a1e57726521cc4a4c6d5d6a826801bbdb8e9ba29de7f6f3ce48466",
+      "metadata_link": "https://arweave.net/ekyHrqTNQMukofuuEXMemgM0ZxPivxLBNsv3od9Ks5c",
+      "onChain": true
+    },
+    "13": {
+      "name": "Goritoto NFT #13",
+      "image_hash": "11b69256702df806ddc3323e64e99233361ebfc3fafdb6a768ad7f0aba7ed922",
+      "image_link": "https://arweave.net/7RgL0J4ficBqie7a3OnVXNvcobbj1NxTCfU1P_B19sg?ext=png",
+      "metadata_hash": "33896fd32795c14fdf310d51324ca4e6446a7584e57f33c1dc43a69e4e7f8c21",
+      "metadata_link": "https://arweave.net/aENu3PvcKHw5USYPxTY2GZ__nQXbOo2BYLMzArfub_E",
+      "onChain": true
+    },
+    "14": {
+      "name": "Goritoto NFT #14",
+      "image_hash": "019c7fb9b1736b7fac3a073f16682ac896b8e4c2c176cfe8dd15207ada179c3d",
+      "image_link": "https://arweave.net/hXZliDhVXMxuTAEbddKdeCmROIdz0izc6NUbu1pXr3w?ext=png",
+      "metadata_hash": "8c7907eb981633125a1fb23d9d1c8f9030da20d17cba7ea49b5500edf9ca472a",
+      "metadata_link": "https://arweave.net/YznsUhu_A7KcoacPHYB8ypbHPdxAiJm9zntI-gZIpKY",
+      "onChain": true
+    }
+  }
+}
