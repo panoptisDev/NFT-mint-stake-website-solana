@@ -33,7 +33,7 @@ const Disconnected: FC = () => {
           noOfLines={2}
           textAlign="center"
         >
-          Mint a Grim Reaper, earn JUC & Level up.
+          Mint a Reaper, earn JUC & Level up.
         </Heading>
         <Button
           bgColor="accent"
