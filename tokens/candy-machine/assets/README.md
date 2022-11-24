@@ -1,0 +1,2 @@
+Folder with NFT collection
+
