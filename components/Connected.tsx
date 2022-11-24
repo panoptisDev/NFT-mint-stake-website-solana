@@ -41,7 +41,7 @@ const Connected: FC = () => {
     metaplex
       .candyMachinesV2()
       .findByAddress({
-        address: new PublicKey("H25KWpvYk752uCiXfm9ckLGcvAZNYeq6B9BCuok7dgoB"),
+        address: new PublicKey("6KGHutoHYX1AKr75TtzPm9gmsHvh2UFTZvt2fQ1XwdoP"),
       })
       .then((candyMachine) => {
         console.log(candyMachine)
@@ -94,8 +94,8 @@ const Connected: FC = () => {
 
           <Text color="bodyText" fontSize="xl" textAlign="center">
             Each Grim Reaper is randomly generated and can be Staked to Receive
-            <Text as="b"> Jucoin (JUC) Tokens</Text>. Use your <Text as="b"> JUC</Text> to
-            upgrade your Goritoto and Receive perks within the community!
+            <Text as="b"> Ghostcoin (GSC) Tokens</Text>. Use your <Text as="b"> GSC</Text> to
+            upgrade your Goritoto NFT and Receive perks within the community!
           </Text>
         </VStack>
       </Container>
