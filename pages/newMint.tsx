@@ -52,13 +52,10 @@ const NewMint: NextPage<NewMintProps> = ({ mint }) => {
       <VStack spacing={20}>
         <Container>
           <VStack spacing={8}>
-            <Heading color="white" as="h1" size="2xl" textAlign="center">
-              😮 A New Reaper Has Appeared!
-            </Heading>
-
+            <Heading color="white" as="h1" size="2xl" textAlign="center">A New Reaper Has Appeared!</Heading>
+            
             <Text color="bodyText" fontSize="xl" textAlign="center">
-              Congratulations, You Have Just Minted A Level 1 Grim Reaper! <br />
-              Time To Stake Your Character To Earn Rewards & Level Up.
+              Congratulations, You Have Just Minted A Level 1 Grim Reaper! <br />Time To Stake Your Character To Earn Rewards & Level Up.
             </Text>
           </VStack>
         </Container>
