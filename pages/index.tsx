@@ -11,6 +11,7 @@ const Home: NextPage = () => {
   const { connected } = useWallet()
 
   return (
+    <MainLayout>
     <div className={styles.container}>
       <Head>
         <title>Goritoto | NFT Reward & Staking</title>
@@ -21,7 +22,7 @@ const Home: NextPage = () => {
       <Box
         w="full"
         h="calc(100vh)"
-        bgImage={connected ? "" : "url(/home-background.svg)"}
+        bgImage={connected ? "" : "url(/home-background.jpg)"}
         backgroundPosition="center"
       >
         <Stack w="full" h="calc(100vh)" justify="center">
@@ -45,6 +46,7 @@ const Home: NextPage = () => {
         </Stack>
       </Box>
     </div>
+    <MainLayout>
   )
 }
 
