@@ -1,22 +1,8 @@
 import type { NextPage } from "next"
 import { useConnection, useWallet } from "@solana/wallet-adapter-react"
 import MainLayout from "../components/MainLayout"
-import {
-  Container,
-  Heading,
-  VStack,
-  Text,
-  Image,
-  Button,
-  HStack,
-} from "@chakra-ui/react"
-import {
-  MouseEventHandler,
-  useCallback,
-  useEffect,
-  useMemo,
-  useState,
-} from "react"
+import { Container, Heading VStack, Text, Image, Button, HStack, } from "@chakra-ui/react"
+import { MouseEventHandler, useCallback, useEffect, useMemo, useState, } from "react"
 import { ArrowForwardIcon } from "@chakra-ui/icons"
 import { PublicKey } from "@solana/web3.js"
 import { Metaplex, walletAdapterIdentity } from "@metaplex-foundation/js"
@@ -33,6 +19,7 @@ const NewMint: NextPage<NewMintProps> = ({ mint }) => {
     metaplex
       .nfts()
       .findByMint({ mintAddress: mint })
+      .run()
       .then((nft) => {
         fetch(nft.uri)
           .then((res) => res.json())
@@ -52,22 +39,17 @@ const NewMint: NextPage<NewMintProps> = ({ mint }) => {
       <VStack spacing={20}>
         <Container>
           <VStack spacing={8}>
-            <Heading color="white" as="h1" size="2xl" textAlign="center">A New Reaper Has Appeared!</Heading>
-            
+            <Heading color="white" as="h1" size="2xl" textAlign="center">A new Reaper has appeared!</Heading>
             <Text color="bodyText" fontSize="xl" textAlign="center">
-              Congratulations, You Have Just Minted A Level 1 Grim Reaper! <br />Time To Stake Your Character To Earn Rewards & Level Up.
+              Congratulations, you minted a level 1 Reaper! <br />
+              Time to stake your character to earn rewards and level up.
             </Text>
           </VStack>
         </Container>
 
         <Image src={metadata?.image ?? ""} alt="" />
 
-        <Button
-          bgColor="accent"
-          color="white"
-          maxW="380px"
-          onClick={handleClick}
-        >
+        <Button bgColor="accent" color="white" maxW="380px" onClick={handleClick}>
           <HStack>
             <Text>Stake My Grim Reaper</Text>
             <ArrowForwardIcon />
@@ -84,9 +66,7 @@ interface NewMintProps {
 
 NewMint.getInitialProps = async ({ query }) => {
   const { mint } = query
-
   if (!mint) throw { error: "no mint" }
-
   try {
     const mintPubkey = new PublicKey(mint)
     return { mint: mintPubkey }
