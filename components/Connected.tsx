@@ -1,34 +1,14 @@
-import {
-  Button,
-  Container,
-  Heading,
-  VStack,
-  Text,
-  HStack,
-  Image,
-} from "@chakra-ui/react"
-import {
-  FC,
-  MouseEventHandler,
-  useCallback,
-  useEffect,
-  useMemo,
-  useState,
-} from "react"
+import { Button, Container, Heading, VStack, Text, HStack, Image, } from "@chakra-ui/react"
+import { FC, MouseEventHandler, useCallback, useEffect, useMemo, useState, } from "react"
 import { PublicKey } from "@solana/web3.js"
 import { useConnection, useWallet } from "@solana/wallet-adapter-react"
-import {
-  Metaplex,
-  walletAdapterIdentity,
-  CandyMachine,
-  CandyMachineV2
-} from "@metaplex-foundation/js"
+import { Metaplex, walletAdapterIdentity, CandyMachine, } from "@metaplex-foundation/js"
 import { useRouter } from "next/router"
 
 const Connected: FC = () => {
   const { connection } = useConnection()
   const walletAdapter = useWallet()
-  const [candyMachine, setCandyMachine] = useState<CandyMachineV2>()
+  const [candyMachine, setCandyMachine] = useState<CandyMachine>()
   const [isMinting, setIsMinting] = useState(false)
 
   const metaplex = useMemo(() => {
@@ -37,12 +17,12 @@ const Connected: FC = () => {
 
   useEffect(() => {
     if (!metaplex) return
-
     metaplex
-      .candyMachinesV2()
+      .candyMachines()
       .findByAddress({
-        address: new PublicKey("6KGHutoHYX1AKr75TtzPm9gmsHvh2UFTZvt2fQ1XwdoP"),
+        address: new PublicKey("4RwtLNMFBdqMJjYtoRSTmubCdFrpPcbS2TtCj12f9mAD"),
       })
+      .run()
       .then((candyMachine) => {
         console.log(candyMachine)
         setCandyMachine(candyMachine)
@@ -57,16 +37,13 @@ const Connected: FC = () => {
   const handleClick: MouseEventHandler<HTMLButtonElement> = useCallback(
     async (event) => {
       if (event.defaultPrevented) return
-
       if (!walletAdapter.connected || !candyMachine) {
         return
       }
 
       try {
         setIsMinting(true)
-        const nft = await metaplex.candyMachinesV2().mint({
-          candyMachine,
-    });
+        const nft = await metaplex.candyMachines().mint({ candyMachine }).run()
         console.log(nft)
         router.push(`/newMint?mint=${nft.nft.address.toBase58()}`)
       } catch (error) {
@@ -75,27 +52,20 @@ const Connected: FC = () => {
         setIsMinting(false)
       }
     },
-    [walletAdapter.connected, candyMachine, metaplex, router]
+    [metaplex, walletAdapter, candyMachine]
   )
 
   return (
     <VStack spacing={20}>
       <Container>
         <VStack spacing={8}>
-          <Heading
-            color="white"
-            as="h1"
-            size="2xl"
-            noOfLines={1}
-            textAlign="center"
-          >
-            Welcome sir Grim Reaper.
+          <Heading color="white" as="h1" size="2xl" noOfLines={1} textAlign="center">
+            Welcome Grim Reaper.
           </Heading>
-
           <Text color="bodyText" fontSize="xl" textAlign="center">
-            Each Grim Reaper is randomly generated and can be Staked to Receive
-            <Text as="b"> Ghostcoin (GSC) Tokens</Text>. Use your <Text as="b"> GSC</Text> to
-            upgrade your Goritoto NFT and Receive perks within the community!
+            Each Grim Reaper is randomly generated and can be staked to receive
+            <Text as="b"> Ghostcoins (GSC)</Text>. Use your <Text as="b"> $GSC</Text> to
+            upgrade your Reaper and receive perks within the community!
           </Text>
         </VStack>
       </Container>
@@ -115,7 +85,7 @@ const Connected: FC = () => {
         onClick={handleClick}
         isLoading={isMinting}
       >
-        <Text>Mint A Grim Reaper</Text>
+        <Text>Mint Reaper</Text>
       </Button>
     </VStack>
   )
