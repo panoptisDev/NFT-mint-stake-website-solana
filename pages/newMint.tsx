@@ -1,7 +1,7 @@
 import type { NextPage } from "next"
 import { useConnection, useWallet } from "@solana/wallet-adapter-react"
 import MainLayout from "../components/MainLayout"
-import { Container, Heading VStack, Text, Image, Button, HStack, } from "@chakra-ui/react"
+import { Container, Heading, VStack, Text, Image, Button, HStack, } from "@chakra-ui/react"
 import { MouseEventHandler, useCallback, useEffect, useMemo, useState, } from "react"
 import { ArrowForwardIcon } from "@chakra-ui/icons"
 import { PublicKey } from "@solana/web3.js"
